@@ -4,7 +4,7 @@ import '../styles.css';
 import { FaFacebookF, FaInstagram } from 'react-icons/fa';
 import logo1 from "../assets/logo1.png";
 
-const Footer = () => {
+const Pied = () => {
   return (
  <footer className="footer-container">
        
@@ -60,4 +60,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Pied ;

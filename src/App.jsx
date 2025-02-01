@@ -6,7 +6,7 @@ import Newsletter from "./components/Newsletter";
 import Newsletter1 from "./components/Newsletter1";
 import FAQ from "./components/FAQ";
 import Ebook from "./components/Ebook"; 
-import Footer from "./components/footer";
+import Pied from "./components/Pied";
  
  
  
@@ -20,7 +20,7 @@ const App = () => {
       <Newsletter1/>
       <FAQ/>
       <Ebook/>
-      <Footer/>
+      <Pied/>
 
 
 
