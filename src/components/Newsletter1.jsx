@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles.css";
-import haircareImg from "../assets/haircare.JPG"; // Assure-toi que le fichier est bien placé
+import haircareImg from "../assets/haircare.jpg";  
 
 const Newsletter = () => {
   return (
