@@ -37,10 +37,10 @@ const Newsletter = () => {
       <div className="block-input">
             
             <input type="email" placeholder="Entrez votre adresse mail" />
-            <button>RECEVOIR LA NEWSLETTER</button>
+            <button>RECEVOIR,  LA NEWSLETTER</button>
             </div>
           </div>
-    </div>
+   </div> 
   );
 };
 
