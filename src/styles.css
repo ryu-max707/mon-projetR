@@ -1,0 +1,604 @@
+/* =========================
+   Styles Généraux
+========================= */
+html {
+  width: 100%;
+  max-width: 100%;
+   
+   
+
+}
+
+/*{border: 1px solid black;} */
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+     
+     
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  /* =========================
+     Header
+  ========================= */
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    padding: 15px 40px;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d63384;
+    padding-left: 30px;;
+    
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 0px;
+
+     
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #d63384;
+  }
+  
+  /* =========================
+     Section Hero
+  ========================= */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #FDEBF1;
+  }
+  
+  .hero-text {
+    max-width: 50%;
+  }
+  
+  .hero-text h2 {
+    font-size: 37px;
+    font-weight: 500;
+  }
+  
+  .highlight {
+    color: #d63384;
+  }
+  
+  .hero-text p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .hero-image img {
+    width: 300px;
+    max-width: 100%;
+  }
+  
+  /* =========================
+     Témoignages
+  ========================= */
+  .testimonials {
+    background-color: #cb5a90;
+    color: white;
+    text-align: start;
+    padding: 40px;
+     
+  }
+  
+  .testimonial-grid {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    
+  }
+  
+  .testimonial-card {
+    
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+     
+
+    width: 30%;
+    display: grid;
+    
+  }
+  
+  .stars {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+
+  /* ========= section newlettr ==============================
+   */
+   .newsletter {
+    max-width: 1280px;
+    margin: 50px auto;
+    padding: 30px;
+
+    background-color:white;
+     
+     
+  }
+  
+  .newsletter h2 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .newsletter h2 span {
+    color: #d63384;
+  }
+  
+  .newsletter-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background: #ffffff;
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+     
+    display: grid;
+    place-items: center;
+    
+    
+    
+  }
+  
+  .card img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    background-color: #fdfdfd;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+  }
+  .email1{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+
+  }
+  
+  .newsletter-form {
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+  }
+  
+  .newsletter-form input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .newsletter-form button {
+    background-color: #d63384;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .newsletter-form button:hover {
+    background-color: #b82d70;
+  }
+
+  /* ==========================Section NEwletter1======================= */
+
+  .newsletter-container1 {
+    max-width: 1280px;
+    margin: 50px auto;
+    width: 98%;
+    
+  }
+  
+  .newsletter-box {
+    background-color: #FDEBF1;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .newsletter-image {
+    width: 40%;
+    border-radius: 8px;
+  }
+  
+  .newsletter-content {
+    text-align: left;
+    width: 60%;
+  }
+  
+  .newsletter-content h2 {
+    font-size: 33px;
+    color: #464343;
+
+    font-weight: 500;
+    margin-top: -47%;
+  }
+  
+  .newsletter-content h2 span {
+    color: #d63384;
+  }
+  
+  .newsletter-content h3 {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #272727;
+  }
+  
+  .newsletter-content p {
+    font-size: 14px;
+    color: #757373;
+  }
+  
+  .newsletter-subscribe {
+    background-color:  #cb5a90;
+    color: white;
+    padding: 20px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 98%;
+    justify-content: center;
+    display: grid;
+  }
+
+  .newsletter-subscribe p{
+    font-size: 23px;
+    
+
+  }
+
+  .newsletter-form1{
+
+    display: grid;
+    padding: 10px;
+    width: 100%;
+    
+  }
+.newsletter-form1 select{
+
+  width: 105%;
+  height: 30px;
+  border-radius: 6px;
+}
+
+  .button3{
+    width: 30%;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 20px;
+    display: block;
+    margin: auto;
+    background: #FDEBF1;
+   
+    
+
+  }
+
+
+
+
+  /* =============SEction FAQ  */
+
+  .faq-container {
+    max-width: 1280px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    
+  }
+  
+  .faq-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-item {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .faq-item:last-child {
+    border-bottom: none;
+  }
+  
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .faq-answer {
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  .faq-footer {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .highlight {
+    color: #d63384;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  /* =============  section 
+  EBOOK   ============================= */
+  .block-container {
+    background-color: #fdfdfd;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+     
+  }
+  
+  .block-title {
+    font-size: 33px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-bottom: 60px;
+  }
+  
+  .highlight {
+    color: #d0608d;
+  }
+  
+  .block-question {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: auto;
+    width: 100%;
+    margin-left: 10%;
+    border-radius: 5px;
+    margin-top: 50px;
+     
+    
+  }
+  
+   .block-input {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+  }
+  form {
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin:30px;
+    line-height: 2;
+    
+  }
+   
+  .block-input input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    
+  }
+
+  .fontyou {
+    width: 97%;
+    height: 200px;
+    border-radius: 15px;
+    background:#fdebf2 ;
+  
+  }
+  
+  
+  .block-input button {
+    background-color:#CB5A90;
+    color: white;
+    left:20px;
+    padding: 10px;
+    align-items: flex-end;
+    border: none;
+    width: 250px;
+    height: auto;
+    cursor: pointer;
+    border-radius: 5px;
+
+    
+  }
+  
+  .block-input button:hover {
+    background-color: #b84f76;
+  }
+  
+
+  
+  /* ==== FOOTER  */
+
+  .footer-container {
+  background-color: #d0608d;
+  color: white;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  hyphens: auto;
+  align-items: center;
+  text-align: justify;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.footer-left, .footer-nav, .footer-newsletter, .footer-socials {
+  flex: 1;
+}
+
+.footer-left .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.foot-menu{
+  margin-top: 75px;
+   margin-left: 90px;
+
+}
+
+.footer-nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 48.5%;
+}
+
+.footer-nav li {
+  margin: 5px 0;
+  justify-content: start;
+}
+
+
+
+.footer-newsletter .newsletter-input {
+  display: flex;
+  justify-content: left;
+
+  
+}
+
+ 
+
+.footer-newsletter{
+  margin-right: -27%;
+  
+}
+
+ 
+
+.newsletter-input input {
+  padding: 1px;
+  margin-right: 5px;
+  border-radius: 7px;
+  border: none;
+  width: 339px;
+  height:31.5PX;
+  
+  
+  
+}
+
+footer button {
+  background-color: #e75480;
+  position: absolute;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  margin-left: 20%;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-description  .p{
+
+  text-align: justify;
+}
+
+.social-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+
+.footer-divider {
+  border: none;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 20px 0;
+  width: 90%;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-items: flex-end;
+  margin-left: 60%;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+
+
+  
+  
+  
