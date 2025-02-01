@@ -34,7 +34,7 @@ const Newsletter = () => {
         </div>
       </div>
       <div className="email1">
-      <div className="block-input">
+      <div className="block-input4">
             
             <input type="email" placeholder="Entrez votre adresse mail" />
             <button>RECEVOIR,  LA NEWSLETTER</button>

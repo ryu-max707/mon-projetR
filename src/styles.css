@@ -77,15 +77,17 @@ body {
     align-items: center;
     padding: 50px;
     background-color: #FDEBF1;
+    
   }
   
   .hero-text {
-    max-width: 50%;
+    max-width: 70%;
   }
   
   .hero-text h2 {
-    font-size: 37px;
+    font-size: 50px;
     font-weight: 500;
+    margin-top: -10px;
   }
   
   .highlight {
@@ -93,8 +95,8 @@ body {
   }
   
   .hero-text p {
-    margin-top: 10px;
-    font-size: 16px;
+    margin-top: 90px;
+    font-size: 19px;
   }
   
   .hero-image img {
@@ -149,6 +151,9 @@ body {
      
      
   }
+
+   
+
   
   .newsletter h2 {
     font-size: 35px;
@@ -203,6 +208,41 @@ body {
     margin-left: 20%;
 
   }
+
+  .block-input4 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    border:none;
+  }
+
+
+  .block-input4 input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px;
+    justify-content: center;
+    
+  }
+
+  .block-input4 button {
+    background-color: #CB5A90;
+    color: white;
+    padding: 10px;
+    align-items: flex-end;
+    border: none;
+    margin-left: 41%;
+    width: 220px;
+    height: auto;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    
+}
+
+
   
   .newsletter-form {
     margin-top: 20px;
@@ -583,9 +623,11 @@ footer button {
 
 .footer-divider {
   border: none;
-  height: 2px;
+  height: 0.5px;
   background-color: #ffffff;
   margin: 20px 0;
+  position: absolute;
+  margin-top: 28%;
   width: 90%;
 }
 
@@ -594,7 +636,7 @@ footer button {
   justify-items: flex-end;
   margin-left: 60%;
   gap: 20px;
-  margin-top: 20px;
+  margin-top: 31px;
 }
 
 
